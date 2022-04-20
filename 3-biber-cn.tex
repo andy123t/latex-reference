@@ -1,0 +1,30 @@
+% !TEX program = xelatex
+% -*- coding: utf-8 -*-
+
+\documentclass{ctexart}
+
+\usepackage{amsmath,amsfonts,amssymb}
+\usepackage{url,hyperref}
+
+\usepackage[backend=biber,style=thuthesis-numeric]{biblatex} % gb7714-2015 gb7714-2015ay ieee
+
+\addbibresource[location=local]{refs-cn.bib} % 需要 bib 后缀
+
+
+\begin{document}
+%\maketitle
+
+
+\section{参考文献的引用}\label{my label}
+
+文献引用示例 \cite{Tadmor2012,Shen1994,CaiFuLiuWang2022}
+
+\cite{Adams2003,Tadmor2012} and \cite{Shen1994}
+
+\cite{ShiShi2013}
+
+\printbibliography[title=参考文献]
+
+
+\end{document}
+
